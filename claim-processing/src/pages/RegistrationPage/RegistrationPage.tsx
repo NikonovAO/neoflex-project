@@ -8,11 +8,12 @@ function RegistrationPage() {
     <>
       <main className='registration-page'>
         <div className='block-img'>
-          <img src="../../assets/image/claims-analysis.png" alt="claims-analysis" />
+          <img src = {require("../../assets/image/claims-analysis.png")} className="claims-analysis" alt="claims-analysis" />
         </div>
         <div className='block-registration'>
-          <img src={logoBig} className="logo-big" alt="logo" />
+          <img src = { logoBig } className="logo-big" alt="logo" />
           <div className="test-block"></div>
+          <span>Проверка шрифтов</span>
         </div>
       </main>
       <Footer />

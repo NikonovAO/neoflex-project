@@ -7,6 +7,15 @@
 .block-img {
   width: 50%;
   background: rgba(211, 237, 225, 0.97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.claims-analysis {
+  width: 73%;
+  height: 70%;
+  object-fit: contain;
 }
 
 .block-registration {
@@ -22,6 +31,12 @@
 .test-block {
   width: 466px;
   height: 339px;
+  width: 48%;
+  height: 35%;
   background-color: darkgrey;
   border: 1px solid black;
+}
+
+span {
+  font-family: 'Inter', sans-serif;
 }
