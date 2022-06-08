@@ -1,6 +1,6 @@
 .registration-page {
   max-width: 1920px;
-  height: 100vh;
+  height: calc(100vh - 91px);
   display: flex;
 }
 
