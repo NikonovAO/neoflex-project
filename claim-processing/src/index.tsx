@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import '../src/styles/normalize.scss'
-import '../src/styles/fonts.scss'
+import '../src/styles/normalize.scss';
+import '../src/styles/fonts.scss';
 import './index.scss';
 import RegistrationPage from './pages/registrationPage/registrationPage';
 
