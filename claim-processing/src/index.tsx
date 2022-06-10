@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
 import './assets/fonts/arial/arial-regular.ttf';
 import './assets/fonts/inter/Inter-Regular.ttf';
