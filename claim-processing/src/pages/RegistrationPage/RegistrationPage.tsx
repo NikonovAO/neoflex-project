@@ -1,7 +1,7 @@
 import React from "react";
-import './index.scss'
+import './registrationPage.scss'
 import logoBig from "../../assets/svg/logo/logo-big.svg";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/footer/footer";
 
 function RegistrationPage() {
   return (
