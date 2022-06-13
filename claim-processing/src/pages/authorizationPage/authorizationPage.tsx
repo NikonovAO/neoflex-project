@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './authorizationPage.scss'
 import Icons from "../../components/icons/icons";
-import logoBig from "../../assets/svg/logo/logo-big.svg";
 import Footer from "../../components/footer/footer";
 
 function AuthorizationPage() {
@@ -13,9 +12,8 @@ function AuthorizationPage() {
           <img src = {require("../../assets/image/claims-analysis.png")} className="claims-analysis" alt="claims-analysis" />
         </div>
         <div className='block-registration'>
-          <img src = { logoBig } className="logo-big" alt="logo" />
-          <img src = { Icons('logo-big') }  className="logo-big" alt="logo" />
-          <div className="test-block"></div>
+          <Icons iconName="logo-big"/>
+          <div className="test-block">Форма авторизации</div>
           <Link to="/auth">Authorization</Link>
           <Link to="/registry">Registration</Link>
         </div>
