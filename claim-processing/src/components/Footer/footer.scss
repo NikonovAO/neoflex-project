@@ -1,6 +1,7 @@
+@import '../../styles/colors.scss';
 footer {
   height: 91px;
-  background: #7DB59A;
+  background: $color-basic-green;
   display: flex;
   align-items: center;
   padding: 0 30px;
